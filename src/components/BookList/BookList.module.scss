@@ -1,0 +1,14 @@
+.ul {
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.li {
+  padding: 10px;
+}
+.img {
+}
+.h2 {
+}
