@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <Provider store={store}>
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="/eng-lets-talk-audio/">
       <React.StrictMode>
         <App />
       </React.StrictMode>
