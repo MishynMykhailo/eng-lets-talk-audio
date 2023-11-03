@@ -1,4 +1,3 @@
-import React from "react";
 import { useSelector } from "react-redux";
 import { getBooksState } from "../../redux/books/books-selectors";
 
@@ -15,7 +14,7 @@ function BookList() {
   const books = useSelector(getBooksState);
 
   return (
-    <>
+    <div className={s.div}>
       {books ? (
         <ul className={s.ul}>
           {books.map((book: IProps) => {
@@ -30,7 +29,7 @@ function BookList() {
                     alt={book.title}
                     className={s.img}
                   />
-                  <h2 className={s.h2}>{book.title}</h2>
+                  <p className={s.p}>{book.title}</p>
                 </Link>
               </li>
             );
@@ -39,7 +38,7 @@ function BookList() {
       ) : (
         <h2>Not Found</h2>
       )}
-    </>
+    </div>
   );
 }
 

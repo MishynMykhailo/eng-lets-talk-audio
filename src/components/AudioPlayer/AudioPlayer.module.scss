@@ -1,1 +1,35 @@
-    
+.progressBar {
+  background: rgb(211, 210, 210);
+  border-radius: 5px;
+  padding-left: 2px;
+  height: 12px;
+  display: flex;
+  margin-bottom: 15px;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+.progress {
+  background: orange;
+  border-radius: 5px;
+  height: 8px;
+  width: 150px;
+}
+.btnContainer {
+  display: flex;
+  justify-content: center;
+}
+.btsPause,
+.btnRepeat,
+.btnPlay {
+  background-color: transparent;
+  padding: 15px;
+  border: none;
+}
+
+.btnRepeat {
+}
+.btnPlay {
+}
+.btsPause {
+}

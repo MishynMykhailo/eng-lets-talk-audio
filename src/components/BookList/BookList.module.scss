@@ -1,14 +1,39 @@
+.div {
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .ul {
   display: flex;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #f7f7f7f7;
+  box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
 }
 .li {
-  padding: 10px;
+  padding: 15px;
+  box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+  border-radius: 4px;
+  background-color: var(--color-biege);
+  transition: 250ms all ease;
+  &:hover,
+  &:focus {
+    opacity: 1;
+    transform: scale(1.01);
+  }
+  &:hover .p,
+  &:focus .p {
+    color: orange;
+  }
 }
+
 .img {
+  margin-bottom: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
 }
-.h2 {
+.p {
+  font-size: 18px;
+  font-weight: 600;
+  transition: 250ms all ease;
 }

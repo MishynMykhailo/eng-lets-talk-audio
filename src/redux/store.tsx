@@ -1,27 +1,45 @@
 import { createSlice, configureStore } from "@reduxjs/toolkit";
 import data from "../helpers/data.json";
 
-const initialState = data;
+const initialStateBooks = data;
 // Создание slice (содержит редьюсер и действия)
 const booksSlice = createSlice({
   name: "books",
-  initialState,
+  initialState: initialStateBooks,
   reducers: {
-    // Добавьте сюда любые редьюсеры, которые вам нужны
-    // Например, для добавления новой книги:
     addBook: (state, action) => {
       state.push(action.payload);
     },
-    // Для удаления книги и т.д.
   },
 });
 
 export const { addBook } = booksSlice.actions;
 
+
+const initialStateAudio = {
+  currentAudioName: null,
+};
+
+const audioSlice = createSlice({
+  name: "audio",
+  initialState: initialStateAudio,
+  reducers: {
+    setCurrentAudioName: (state, action) => {
+      state.currentAudioName = action.payload; // Измените payload на ожидаемый формат
+    },
+  },
+});
+
+export const { setCurrentAudioName } = audioSlice.actions;
+
+
+
+
 // Создание хранилища с нашим редьюсером
 export const store = configureStore({
   reducer: {
     books: booksSlice.reducer,
+    audio: audioSlice.reducer,
   },
 });
 
