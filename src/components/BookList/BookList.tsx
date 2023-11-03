@@ -1,13 +1,24 @@
 import React from "react";
+import { useSelector } from "react-redux";
+import { getBooksState } from "../../redux/books/books-selectors";
+
 import s from "./BookList.module.scss";
-import data from "../../helpers/data.json";
 import { Link } from "react-router-dom";
+
+interface IProps {
+  id: string;
+  title: string;
+  image: string;
+}
+
 function BookList() {
+  const books = useSelector(getBooksState);
+
   return (
     <>
-      {data ? (
+      {books ? (
         <ul className={s.ul}>
-          {data.map((book) => {
+          {books.map((book: IProps) => {
             return (
               <li
                 key={book.id}

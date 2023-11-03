@@ -2,7 +2,36 @@
   {
     "id": "1",
     "title": "Let's Talk 1 2nd Edition Class Audio",
-    "image": "../images/lets-talk-audio-1.jpg"
+    "image": "../images/lets-talk-audio-1.jpg",
+    "audioMp3": [
+      "../audio/book1/mp3/Track01.mp3",
+      "../audio/book1/mp3/Track02.mp3",
+      "../audio/book1/mp3/Track03.mp3",
+      "../audio/book1/mp3/Track04.mp3",
+      "../audio/book1/mp3/Track05.mp3",
+      "../audio/book1/mp3/Track06.mp3",
+      "../audio/book1/mp3/Track07.mp3",
+      "../audio/book1/mp3/Track08.mp3",
+      "../audio/book1/mp3/Track09.mp3",
+      "../audio/book1/mp3/Track10.mp3",
+      "../audio/book1/mp3/Track11.mp3",
+      "../audio/book1/mp3/Track12.mp3",
+      "../audio/book1/mp3/Track13.mp3",
+      "../audio/book1/mp3/Track14.mp3",
+      "../audio/book1/mp3/Track15.mp3",
+      "../audio/book1/mp3/Track16.mp3",
+      "../audio/book1/mp3/Track17.mp3",
+      "../audio/book1/mp3/Track18.mp3",
+      "../audio/book1/mp3/Track19.mp3",
+      "../audio/book1/mp3/Track20.mp3",
+      "../audio/book1/mp3/Track21.mp3",
+      "../audio/book1/mp3/Track22.mp3",
+      "../audio/book1/mp3/Track23.mp3",
+      "../audio/book1/mp3/Track24.mp3",
+      "../audio/book1/mp3/Track25.mp3",
+      "../audio/book1/mp3/Track26.mp3",
+      "../audio/book1/mp3/Track27.mp3"
+    ]
   },
   {
     "id": "2",
