@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "home":"https://mishynmykhailo.github.io/eng-lets-talk-audio/",
+  "homepage": "https://mishynmykhailo.github.io/eng-lets-talk-audio/",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
