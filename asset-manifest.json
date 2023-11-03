@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.461e3215.css",
-    "main.js": "/static/js/main.77184d12.js",
-    "static/media/bg.svg": "/static/media/bg.18fe9d6fcc4d243752bf.svg",
-    "index.html": "/index.html",
-    "static/media/btnRepeat.svg": "/static/media/btnRepeat.fb429f2bd1afbfc92cd8ae2488376e0c.svg",
-    "static/media/btnStop.svg": "/static/media/btnStop.c82d29afb1558103e15bb85d2e082cfd.svg",
-    "static/media/btnPlay.svg": "/static/media/btnPlay.bdc994ab304f8aeea04af0a0d572e450.svg",
-    "main.461e3215.css.map": "/static/css/main.461e3215.css.map",
-    "main.77184d12.js.map": "/static/js/main.77184d12.js.map"
+    "main.css": "/eng-lets-talk-audio/static/css/main.41b94a72.css",
+    "main.js": "/eng-lets-talk-audio/static/js/main.1834b53a.js",
+    "static/media/bg.svg": "/eng-lets-talk-audio/static/media/bg.18fe9d6fcc4d243752bf.svg",
+    "index.html": "/eng-lets-talk-audio/index.html",
+    "static/media/btnRepeat.svg": "/eng-lets-talk-audio/static/media/btnRepeat.fb429f2bd1afbfc92cd8ae2488376e0c.svg",
+    "static/media/btnStop.svg": "/eng-lets-talk-audio/static/media/btnStop.c82d29afb1558103e15bb85d2e082cfd.svg",
+    "static/media/btnPlay.svg": "/eng-lets-talk-audio/static/media/btnPlay.bdc994ab304f8aeea04af0a0d572e450.svg",
+    "main.41b94a72.css.map": "/eng-lets-talk-audio/static/css/main.41b94a72.css.map",
+    "main.1834b53a.js.map": "/eng-lets-talk-audio/static/js/main.1834b53a.js.map"
   },
   "entrypoints": [
-    "static/css/main.461e3215.css",
-    "static/js/main.77184d12.js"
+    "static/css/main.41b94a72.css",
+    "static/js/main.1834b53a.js"
   ]
 }
