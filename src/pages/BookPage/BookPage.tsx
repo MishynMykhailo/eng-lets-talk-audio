@@ -18,7 +18,7 @@ function BookPage() {
         <h1 className={s.h1}>{e.title}</h1>
         <img
           className={s.img}
-          src={e.image}
+          src={e.imageLoop}
           alt={`book pic: ${e.title}`}
         />
         <ul className={s.ul}>

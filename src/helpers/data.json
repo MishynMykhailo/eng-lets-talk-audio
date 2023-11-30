@@ -3,6 +3,7 @@
     "id": "1",
     "title": "Let's Talk 1 2nd Edition Class Audio",
     "image": "./images/lets-talk-audio-1.jpg",
+    "imageLoop": "../images/lets-talk-audio-1.jpg",
     "tracks": [
       {
         "mp3": "../audio/book1/mp3/Track01.mp3",
@@ -102,7 +103,7 @@
       {
         "mp3": "../audio/book1/mp3/Track20.mp3",
         "ogg": "../audio/book1/ogg/Track20.ogg",
-        "pages": "Страницы 1-2"
+        "pages": "Страница 22 / Activity 2A"
       },
       {
         "mp3": "../audio/book1/mp3/Track21.mp3",
@@ -144,11 +145,13 @@
   {
     "id": "2",
     "title": "Let's Talk 2 2nd Edition Class Audio",
-    "image": "./images/lets-talk-audio-2.jpg"
+    "image": "./images/lets-talk-audio-2.jpg",
+    "imageLoop": "../images/lets-talk-audio-2.jpg"
   },
   {
     "id": "3",
     "title": "Let's Talk 3 2nd Edition Class Audio",
-    "image": "./images/lets-talk-audio-3.jpg"
+    "image": "./images/lets-talk-audio-3.jpg",
+    "imageLoop": "../images/lets-talk-audio-3.jpg"
   }
 ]
